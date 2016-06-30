@@ -1,0 +1,9 @@
+/* Letter spacing */
+
+.ls-xxl     { letter-spacing: 2px; }
+.ls-xl      { letter-spacing: 1px; }
+.ls-l       { letter-spacing: .5px; }
+.ls-normal  { letter-spacing: normal; }
+.ls-s       { letter-spacing: -.5px; }
+.ls-xs      { letter-spacing: -1px; }
+.ls-xxs     { letter-spacing: -2px; }

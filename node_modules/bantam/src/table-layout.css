@@ -1,0 +1,29 @@
+/* Table layout */
+
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
+.tl-auto    { table-layout: auto; }
+.tl-fixed   { table-layout: fixed; }
+
+@media (--breakpoint-s) {
+    .bps-tl-auto    { table-layout: auto; }
+    .bps-tl-fixed   { table-layout: fixed; }
+}
+
+@media (--breakpoint-m) {
+    .bpm-tl-auto    { table-layout: auto; }
+    .bpm-tl-fixed   { table-layout: fixed; }
+}
+
+@media (--breakpoint-l) {
+    .bpl-tl-auto    { table-layout: auto; }
+    .bpl-tl-fixed   { table-layout: fixed; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-tl-auto    { table-layout: auto; }
+    .bpxl-tl-fixed   { table-layout: fixed; }
+}

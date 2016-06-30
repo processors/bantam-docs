@@ -1,0 +1,32 @@
+{
+  "name": "bantam-docs",
+  "version": "0.0.1",
+  "description": "Docs for Bantam CSS",
+  "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colmtuite/bantam-docs.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "oocss",
+    "performance",
+    "framework",
+    "front-end"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "bantamcss": "^0.1.0",
+    "yargs": "^4.7.1"
+  },
+  "contributors": [
+    {
+      "name": "Colm Tuite",
+      "email": "colmtuite@gmail.com"
+    }
+  ],
+  "scripts": {
+      
+  }
+}

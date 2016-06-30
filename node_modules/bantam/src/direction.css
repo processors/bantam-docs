@@ -1,0 +1,29 @@
+/* Position */
+
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
+.direction-ltr      { direction: ltr; }
+.direction-rtl      { direction: rtl; }
+
+@media (--breakpoint-s) {
+  .bps-direction-ltr      { direction: ltr; }
+  .bps-direction-rtl      { direction: rtl; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-direction-ltr      { direction: ltr; }
+  .bpm-direction-rtl      { direction: rtl; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-direction-ltr      { direction: ltr; }
+  .bpl-direction-rtl      { direction: rtl; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-direction-ltr      { direction: ltr; }
+  .bpxl-direction-rtl      { direction: rtl; }
+}

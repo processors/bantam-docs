@@ -1,0 +1,27 @@
+/* Border radius */
+
+.br-0       { border-radius: 0; }
+.br-s       { border-radius: 2px; }
+.br-m       { border-radius: 5px; }
+.br-l       { border-radius: 10px; }
+.br-circle  { border-radius: 50%; }
+
+.btlr-0     { border-top-left-radius: 0; }
+.btlr-s     { border-top-left-radius: 2px; }
+.btlr-m     { border-top-left-radius: 5px; }
+.btlr-l     { border-top-left-radius: 10px; }
+
+.btrr-0     { border-top-right-radius: 0; }
+.btrr-0     { border-top-right-radius: 2px; }
+.btrr-0     { border-top-right-radius: 5px; }
+.btrr-0     { border-top-right-radius: 10px; }
+
+.bbrr-0     { border-bottom-right-radius: 0; }
+.bbrr-0     { border-bottom-right-radius: 2px; }
+.bbrr-0     { border-bottom-right-radius: 5px; }
+.bbrr-0     { border-bottom-right-radius: 10px; }
+
+.bblr-0     { border-bottom-left-radius: 0; }
+.bblr-0     { border-bottom-left-radius: 2px; }
+.bblr-0     { border-bottom-left-radius: 5px; }
+.bblr-0     { border-bottom-left-radius: 10px; }

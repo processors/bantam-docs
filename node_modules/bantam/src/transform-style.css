@@ -1,0 +1,29 @@
+/* Transform Style */
+
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
+.ts-flat        { transform-style: flat; }
+.ts-preserve3d  { transform-style: preserve-3d; }
+
+@media (--breakpoint-s) {
+  .bps-ts-flat        { transform-style: flat; }
+  .bps-ts-preserve3d  { transform-style: preserve-3d; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-ts-flat        { transform-style: flat; }
+  .bpm-ts-preserve3d  { transform-style: preserve-3d; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-ts-flat        { transform-style: flat; }
+  .bpl-ts-preserve3d  { transform-style: preserve-3d; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-ts-flat        { transform-style: flat; }
+  .bpxl-ts-preserve3d  { transform-style: preserve-3d; }
+}

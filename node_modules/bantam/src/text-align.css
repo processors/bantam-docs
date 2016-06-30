@@ -1,0 +1,34 @@
+/* Text Align */
+
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
+.ta-left    { text-align: left; }
+.ta-center  { text-align: center; }
+.ta-right   { text-align: right; }
+
+@media (--breakpoint-s) {
+  .bps-ta-left    { text-align: left; }
+  .bps-ta-center  { text-align: center; }
+  .bps-ta-right   { text-align: right; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-ta-left    { text-align: left; }
+  .bpm-ta-center  { text-align: center; }
+  .bpm-ta-right   { text-align: right; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-ta-left    { text-align: left; }
+  .bpl-ta-center  { text-align: center; }
+  .bpl-ta-right   { text-align: right; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-ta-left    { text-align: left; }
+  .bpxl-ta-center  { text-align: center; }
+  .bpxl-ta-right   { text-align: right; }
+}

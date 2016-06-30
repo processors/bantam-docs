@@ -1,0 +1,39 @@
+/* Text Decoration */
+
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
+.td-none        { text-decoration: none; }
+.td-underline   { text-decoration: underline; }
+.td-overline    { text-decoration: overline; }
+.td-lineThrough { text-decoration: line-through; }
+
+@media (--breakpoint-s) {
+  .bps-td-none        { text-decoration: none; }
+  .bps-td-underline   { text-decoration: underline; }
+  .bps-td-overline    { text-decoration: overline; }
+  .bps-td-lineThrough { text-decoration: line-through; }
+}
+
+@media (--breakpoint-m) {
+  .bpm-td-none        { text-decoration: none; }
+  .bpm-td-underline   { text-decoration: underline; }
+  .bpm-td-overline    { text-decoration: overline; }
+  .bpm-td-lineThrough { text-decoration: line-through; }
+}
+
+@media (--breakpoint-l) {
+  .bpl-td-none        { text-decoration: none; }
+  .bpl-td-underline   { text-decoration: underline; }
+  .bpl-td-overline    { text-decoration: overline; }
+  .bpl-td-lineThrough { text-decoration: line-through; }
+}
+
+@media (--breakpoint-xl) {
+  .bpxl-td-none        { text-decoration: none; }
+  .bpxl-td-underline   { text-decoration: underline; }
+  .bpxl-td-overline    { text-decoration: overline; }
+  .bpxl-td-lineThrough { text-decoration: line-through; }
+}
