@@ -1,10 +1,5 @@
 /* Word Break */
 
-@custom-media --breakpoint-s (min-width: 24em);
-@custom-media --breakpoint-m (min-width: 34em);
-@custom-media --breakpoint-l (min-width: 48em);
-@custom-media --breakpoint-xl (min-width: 64em);
-
 .wb-normal      { word-break: normal; }
 .wb-breakAll    { word-break: break-all; }
 .wb-keepAll     { word-break: keep-all; }

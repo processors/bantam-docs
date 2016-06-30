@@ -17,7 +17,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "bantamcss": "^0.1.0",
+    "bantam": "^0.2.0",
     "yargs": "^4.7.1"
   },
   "contributors": [
@@ -27,6 +27,6 @@
     }
   ],
   "scripts": {
-      
+
   }
 }

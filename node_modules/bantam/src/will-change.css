@@ -1,10 +1,5 @@
 /* Will change */
 
-@custom-media --breakpoint-s (min-width: 24em);
-@custom-media --breakpoint-m (min-width: 34em);
-@custom-media --breakpoint-l (min-width: 48em);
-@custom-media --breakpoint-xl (min-width: 64em);
-
 .wc-scrollPosition  { will-change: scroll-position; }
 .wc-contents        { will-change: contents; }
 .wc-transform       { will-change: transform; }

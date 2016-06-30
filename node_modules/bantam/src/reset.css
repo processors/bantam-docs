@@ -29,3 +29,12 @@ select,
 textarea {
     font-family: inherit;
 }
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}

@@ -1,10 +1,5 @@
 /* User Select */
 
-@custom-media --breakpoint-s (min-width: 24em);
-@custom-media --breakpoint-m (min-width: 34em);
-@custom-media --breakpoint-l (min-width: 48em);
-@custom-media --breakpoint-xl (min-width: 64em);
-
 .us-none        { user-select: none; }
 .us-auto        { user-select: auto; }
 .us-text        { user-select: text; }

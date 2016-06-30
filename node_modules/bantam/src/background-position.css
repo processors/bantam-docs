@@ -1,10 +1,5 @@
 /* Background Position */
 
-@custom-media --breakpoint-s (min-width: 24em);
-@custom-media --breakpoint-m (min-width: 34em);
-@custom-media --breakpoint-l (min-width: 48em);
-@custom-media --breakpoint-xl (min-width: 64em);
-
 .bp-LT  { background-position: left top; }
 .bp-LC  { background-position: left center; }
 .bp-LB  { background-position: left bottom; }

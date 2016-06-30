@@ -1,10 +1,5 @@
 /* Z Index */
 
-@custom-media --breakpoint-s (min-width: 24em);
-@custom-media --breakpoint-m (min-width: 34em);
-@custom-media --breakpoint-l (min-width: 48em);
-@custom-media --breakpoint-xl (min-width: 64em);
-
 .zi-1 { z-index: 100; }
 .zi-2 { z-index: 200; }
 .zi-3 { z-index: 300; }
