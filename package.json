@@ -17,7 +17,11 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "bantam": "^0.2.1",
+    "bantam": "^0.2.5",
+    "postcss": "^5.0.21",
+    "postcss-custom-media": "^5.0.1",
+    "autoprefixer": "^6.3.6",
+    "precss": "^1.4.0",
     "bluebird": "^3.4.1",
     "lodash": "^4.13.1",
     "node-glob": "^1.2.0",
@@ -31,6 +35,8 @@
     }
   ],
   "scripts": {
-    "build": "node scripts/document.js"
+    "start": "npm run build:css && npm run build:templates",
+    "build:templates": "node scripts/document.js",
+    "build:css": "node scripts/postcss node_modules/bantam/css/bantam.min.css css/bantam.min.css"
   }
 }
